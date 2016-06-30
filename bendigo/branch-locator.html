@@ -1,0 +1,50 @@
+<!doctype html>
+<!--[if lte IE 7 ]>    <html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>Bendigo Bank</title>
+  <meta name="description" content="Bendigo Bank Facebook App">
+  <meta name="author" content="MassMedia Studios">
+
+  <script src="js/libs/jquery-1.7.1.min.js"></script>
+  <script src="js/libs/modernizr.custom.js"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body onload="initialize()">
+    
+	<div id="main-wrapper">
+    <div class="container clearfix">
+      
+      <div class="header">
+        <img src="images/Title-Branch-locator.jpg" alt="Branch Locator">
+      </div><!-- .header -->
+      
+      <div class="section clearfix">
+
+        <div class="form">
+          <input type="text" placeholder="Enter address, city or postcode" id="">
+          <button class="btn" type="submit">Search</button>
+        </div><!-- .form -->
+
+        <div class="embed">
+          <div id="map_canvas"></div>
+        </div>
+
+      </div><!-- .section -->
+
+    </div>
+	</div><!-- #main-wrapper -->
+  	
+  <!-- scripts -->
+  <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCpLtla9KiBP-PRrqwEBpwAL9AVicRlo3w&sensor=false"></script>
+	<script src="js/script.js"></script>
+  <!-- end scripts-->
+  
+</body>
+</html>
